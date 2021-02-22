@@ -9,7 +9,7 @@
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
 function chunk(array, size) {
-  let result = [];
+  const result = [];
   let index = 0;
   while (index<array.length) {
     result.push(array.slice(index, index+size))
