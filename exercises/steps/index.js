@@ -18,7 +18,6 @@
 //       '####'
 
 function steps(n, row = 0, str = '') {
-
   if (row === n) {
     return;
   }
